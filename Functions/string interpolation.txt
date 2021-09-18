@@ -1,0 +1,31 @@
+In this article we will learn about the python string interpolation. Python supports multiple ways to format text strings
+and these includes %-formatting, sys.format(), string.Template and f-strings.
+String interpolation is a process substituting values of variables into placeholders in a string.
+For instance, if you have a template for saying hello to a person like "Hello {Name of person}, nice to meet you!",
+you would like to replace the placeholder for name of person with an actual name. This process is called string interpolation.
+
+f-strings
+Python 3.6 added new string interpolation method called literal string interpolation and introduced a new literal prefix f.
+This new way of formatting strings is powerful and easy to use. It provides access to embedded Python expressions inside string constants.
+
+Example 1:
+name = 'World'
+program = 'Python'
+print(f'Hello {name}! This is {program}')
+When we run the above program, the output will be
+
+Hello World! This is Python
+In above example literal prefix f tells Python to restore the value of two string variable name and program inside braces {}.
+So, that when we print we get the above output.
+
+This new string interpolation is powerful as we can embed arbitrary Python expressions we can even do inline arithmetic with it.
+
+Example 2:
+a = 12
+b = 3
+print(f'12 multiply 3 is {a * b}.')
+When we run the above program, the output will be
+
+12 multiply 3 is 36.
+In the above program we did inline arithmetic which is only possible with this method.
+
