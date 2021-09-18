@@ -1,0 +1,6 @@
+First data is visualize to come to know that actually what about it is
+2nd we analyze to find the change in data
+After that insight to make conclusion from analyzed data
+Then data is transformed
+
+Matplotlib is for 2D Graphics.
