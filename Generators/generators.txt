@@ -1,0 +1,4 @@
+Generators:
+        Are functions that return traversable object
+        Produce items one at a time and only when required
+        Are run along with for loops
