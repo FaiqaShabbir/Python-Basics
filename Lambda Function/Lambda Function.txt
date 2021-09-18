@@ -1,0 +1,17 @@
+A lambda function is a small anonymous function.
+
+A lambda function can take any number of arguments,
+but can only have one expression.
+
+Lambda Function is nameless function.
+lambda is not name but a keyword.
+
+One time use:
+                Also known as throwaway function as they are needed just once.
+I/O functions:
+                They are also passed as input or returned as output
+                of other higher-function.
+
+
+Reduced code:
+                body of lambda function is written in single line.
